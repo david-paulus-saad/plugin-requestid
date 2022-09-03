@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-const defaultHeader = "X-Request-Id"
+const defaultHeader = "x-Request-id"
 
 type Config struct {
 	HeaderName string
